@@ -27,6 +27,12 @@ int main() {
 
 
     cout << "Isi vector setelah disorting : " << endl;
+    //menggunakan iterator
+    /* 
+    for(it = vec.begin() ; it != vec.end() ; it++){
+        cout << *it << " ";
+    }
+    */
     for(int i=0 ; i<n ; i++){
         cout << vec[i] << " ";
     }
